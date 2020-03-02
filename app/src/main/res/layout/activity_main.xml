@@ -26,4 +26,12 @@
         android:gravity="center"
         android:padding="20dp" />
 
+    <Button
+        android:id="@+id/startstop"
+        android:text="Start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:textSize="18sp"/>
+
 </LinearLayout>
