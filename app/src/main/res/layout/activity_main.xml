@@ -7,6 +7,21 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
+    <!-- Goal Setting -->
+    <TextView
+        android:id="@+id/goal_settin"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/goal_settin"
+        android:textAppearance="@style/goal_settin" />
+
     <TextView
         android:id="@+id/goalNum"
         android:padding="20dp"
@@ -28,7 +43,7 @@
 
     <Button
         android:id="@+id/startstop"
-        android:text="Start"
+        android:text="Go With This Goal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="50dp"

@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                     seekBar: SeekBar, progress: Int, fromUser: Boolean) {
                     // percentage format
                     val str = String.format(Locale.US, "%d %%", progress)
-                    goalNum.text = str
+                    goalNum.text = str //percentage which user setted
                 }
 
                 override fun onStartTrackingTouch(seekBar: SeekBar) {
